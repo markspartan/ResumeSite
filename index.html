@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Koenig - Full-Stack Software Developer</title>
+    <meta name="description" content="Full-Stack Software Developer with 5+ years in C#, .NET, SQL application development, IT support, and troubleshooting. Background in game design for creative prototyping.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .resume-container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        .header {
+            background: #001f3f;
+            color: #ffd700;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .header h1 {
+            font-size: 3.2rem;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .header .subtitle {
+            font-size: 1.5rem;
+            margin: 10px 0 0;
+            font-weight: 500;
+        }
+
+        /* Two-column layout */
+        .main-layout {
+            display: flex;
+            min-height: 800px;
+        }
+
+        /* Left Sidebar - Orange background */
+        .sidebar {
+            width: 35%;
+            background: #ff8c00; /* Orange */
+            color: #fff;
+            padding: 40px 30px;
+        }
+
+        .sidebar h2 {
+            color: #fff;
+            font-size: 1.4rem;
+            margin: 30px 0 15px;
+            border-bottom: 2px solid #ffd700;
+            padding-bottom: 8px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .sidebar a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .contact p {
+            margin: 12px 0;
+        }
+
+        /* Right Content - White background */
+        .content {
+            width: 65%;
+            background: #fff;
+            padding: 40px;
+        }
+
+        .content h2 {
+            color: #001f3f;
+            font-size: 1.6rem;
+            margin: 30px 0 15px;
+            border-bottom: 3px solid #ff8c00;
+            padding-bottom: 8px;
+        }
+
+        .content p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .job h3 {
+            font-size: 1.3rem;
+            margin: 0 0 5px;
+            color: #001f3f;
+        }
+
+        .job strong {
+            font-weight: 600;
+        }
+
+        .edu {
+            margin-bottom: 25px;
+        }
+
+        .edu h3 {
+            font-size: 1.2rem;
+            margin: 0 0 5px;
+            color: #001f3f;
+        }
+
+        /* Print-specific styles for perfect PDF */
+        @media print {
+            body { background: white; margin: 0; padding: 0; }
+            .resume-container { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+            @page { margin: 0; size: letter portrait; }
+            .header { padding: 40px 20px; }
+            .main-layout { display: flex; }
+            .sidebar, .content { padding: 30px; }
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .main-layout { flex-direction: column; }
+            .sidebar, .content { width: 100%; }
+            .header h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Navy Header -->
+        <header class="header">
+            <h1>MARK KOENIG</h1>
+            <p class="subtitle">FULL-STACK SOFTWARE DEVELOPER</p>
+        </header>
+
+        <div class="main-layout">
+            <!-- Left Orange Sidebar -->
+            <aside class="sidebar">
+                <section class="skills">
+                    <h2>PROFESSIONAL SKILLS</h2>
+                    <ul>
+                        <li>C# • .NET</li>
+                        <li>T-SQL / Microsoft SQL Server</li>
+                        <li>JavaScript • Node.js</li>
+                        <li>HTML / CSS • Java</li>
+                        <li>Android Development (Kotlin)</li>
+                        <li>Application Programming</li>
+                        <li>Debugging • Prototyping</li>
+                        <li>Troubleshooting</li>
+                        <li>System Maintenance</li>
+                        <li>Unity 3D • Unreal Engine 4</li>
+                        <li>Game Design • Level Design</li>
+                    </ul>
+                </section>
+
+                <section class="personal">
+                    <h2>PERSONAL SKILLS</h2>
+                    <ul>
+                        <li>Self-Motivated</li>
+                        <li>Hard Working</li>
+                        <li>Reliable</li>
+                        <li>Team Player</li>
+                        <li>Fast Learner</li>
+                        <li>Creative</li>
+                    </ul>
+                </section>
+
+                <section class="contact">
+                    <h2>CONTACT</h2>
+                    <p>Phone: (219) 384-0432</p>
+                    <p>Email: markkoenig20@yahoo.com</p>
+                    <p>Website: <a href="https://www.markkoenig.net" target="_blank">www.markkoenig.net</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/mark-koenig-98aa8776" target="_blank">Mark Koenig</a></p>
+                </section>
+            </aside>
+
+            <!-- Right White Content -->
+            <main class="content">
+                <section class="about">
+                    <h2>ABOUT</h2>
+                    <p>Results-driven full-stack software developer with 5+ years of hands-on experience delivering robust applications and critical IT support for a large-scale retail organization. Expert in designing, developing, and maintaining enterprise systems using C#, .NET, T-SQL, and JavaScript, with a strong focus on performance, security, and operational efficiency. Academic background in game design enhances innovative problem-solving and rapid prototyping capabilities. Reliable, proactive professional committed to building high-quality solutions in collaborative environments.</p>
+                </section>
+
+                <section class="experience">
+                    <h2>WORK EXPERIENCE</h2>
+                    <div class="job">
+                        <h3>IT Help Desk Technician / Application Developer</h3>
+                        <p><strong>Strack and Van Til LLC</strong> | Dec 2013 – Present</p>
+                        <ul>
+                            <li>Designed and developed custom internal applications using C#/.NET and T-SQL, automating business processes and streamlining operations across multiple locations.</li>
+                            <li>Delivered high-impact troubleshooting and technical support, quickly resolving complex hardware and software issues to maintain system availability and minimize disruptions.</li>
+                            <li>Conducted thorough debugging, prototyping, and ongoing maintenance of production systems, proactively identifying and addressing vulnerabilities while implementing performance improvements.</li>
+                            <li>Applied strong analytical and creative problem-solving skills—honed through formal game design training—to rapidly prototype and deliver effective solutions for real-world business challenges.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="education">
+                    <h2>EDUCATION</h2>
+                    <div class="edu">
+                        <h3>Bachelor of Science - Game Design</h3>
+                        <p>Full Sail University | 2018-2020<br>GPA 3.5</p>
+                    </div>
+                    <div class="edu">
+                        <h3>Associate of Science - Software Development</h3>
+                        <p>Ivy Tech Community College | 2015-2017<br>GPA 3.2</p>
+                    </div>
+                </section>
+
+                <section class="certificates">
+                    <h2>CERTIFICATES</h2>
+                    <ul>
+                        <li>Certificate in Java Application Development – Ivy Tech Community College (Jul 2016)</li>
+                        <li>Technical Certificate in Software Development – Ivy Tech Community College (Jul 2016)</li>
+                        <li>PC Pro Certified – TestOut Corporation (May 2016)</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
