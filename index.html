@@ -124,23 +124,6 @@
             margin: 0 0 5px;
             color: #001f3f;
         }
-
-        /* Print-specific styles for perfect PDF */
-        @media print {
-            body { background: white; margin: 0; padding: 0; }
-            .resume-container { max-width: none; margin: 0; padding: 0; box-shadow: none; }
-            @page { margin: 0; size: letter portrait; }
-            .header { padding: 40px 20px; }
-            .main-layout { display: flex; }
-            .sidebar, .content { padding: 30px; }
-        }
-
-        /* Responsive */
-        @media (max-width: 900px) {
-            .main-layout { flex-direction: column; }
-            .sidebar, .content { width: 100%; }
-            .header h1 { font-size: 2.5rem; }
-        }
     </style>
 </head>
 <body>
@@ -187,7 +170,7 @@
                     <h2>CONTACT</h2>
                     <p>Phone: (219) 384-0432</p>
                     <p>Email: markkoenig20@yahoo.com</p>
-                    <p>Website: <a href="https://www.markkoenig.net" target="_blank">www.markkoenig.net</a></p>
+                    <p>Website: <a href="www.markkoenig.net" target="_blank">www.markkoenig.net</a></p>
                     <p>LinkedIn: <a href="https://www.linkedin.com/in/mark-koenig-98aa8776" target="_blank">Mark Koenig</a></p>
                 </section>
             </aside>
@@ -237,4 +220,5 @@
         </div>
     </div>
 </body>
+
 </html>
